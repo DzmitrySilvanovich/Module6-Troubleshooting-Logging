@@ -33,7 +33,7 @@ namespace Ticketing.UI.Controllers
         [OutputCache(PolicyName = "Expensive")]
         public async Task<IActionResult> Get()
         {
-            _logger.Info("VenuesControler  Start Get venues.");
+            _logger.Debug("VenuesControler  Start Get venues.");
 
             var venues = await _venueService.GetVenuesAsync();
 
@@ -44,7 +44,7 @@ namespace Ticketing.UI.Controllers
             }
             else if(!venues.Any())
             {
-                _logger.Warn("VenuesControler Get venues Return empty result.");
+                _logger.Debug("VenuesControler Get venues Return empty result.");
                 return NoContent();
             }
 
@@ -64,7 +64,7 @@ namespace Ticketing.UI.Controllers
         [OutputCache(PolicyName = "CacheForTenSeconds")]
         public async Task<IActionResult> GetSectionsOfVenue(int venueId)
         {
-            _logger.Info("VenuesControler  Start GetSectionsOfVenue {venueId}.");
+            _logger.Debug("VenuesControler  Start GetSectionsOfVenue {venueId}.");
 
             var sections = await _venueService.GetSectionsOfVenueAsync(venueId);
 
@@ -75,7 +75,7 @@ namespace Ticketing.UI.Controllers
             }
             else if (!sections.Any())
             {
-                _logger.Warn("VenuesControler Get venues Return empty result.");
+                _logger.Debug("VenuesControler Get venues Return empty result.");
                 return NoContent();
             }
 
