@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Dzmitry_Silvanovich\.nuget\packages\moq\4.20.69\lib\net6.0\Moq.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\7.0.7\Microsoft.AspNetCore.Mvc.Core.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1bad63c0_002D06d4_002D4881_002Da858_002D39204911bf10/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1Async" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.PaymentServiceTests.Test1Async&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.VenueServiceTests.Test1Async&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.PaymentServiceTests.Test2Async&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.CartServiceTests.AddSeatToCart_Succes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.OrderServiceTests.Test1OrdAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.OrderServiceTests.Test21Async&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.OrderServiceTests.Test1Async&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.OrderServiceTests.ReleaseCartsFromOrderAsync_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.OrderServiceTests.ReleaseCartsFromOrderAsync_Fail&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.EventsServiceTests.Async_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.PaymentServiceTests.GetSeatsAsync_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::18803BC9-F99F-48D8-8205-01072C491931::net7.0::Ticketing.UnitTests.ServicesTests.VenueServiceTests.GetSectionsOfVenue_Fail&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
